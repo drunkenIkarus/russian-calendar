@@ -1,6 +1,12 @@
 ## ChangeLog
 
 
+#### v1.0.1 (2026-04-09)
+
+- fix method getWeekendDates
+- fix test of getWeekendDates
+
+
 #### v1.0.0 (2026-01-21)
 
 - rename convertTimestamp to parseDate
@@ -8,7 +14,7 @@
 - add method getSourcePublicUrl
 - add method getWeekendFrom
 - add method getWeekendTo
-
+- add tests
 
 #### v0.0.6 (2026-01-19)
 

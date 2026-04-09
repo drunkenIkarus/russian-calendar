@@ -719,7 +719,7 @@ class RussianCalendar
 	 */
 	public function getWeekendDates($date, $weekends = array(0,6), $fullArray = true, $format = 'Y-m-d')
 	{
-		if($this->checkWeekend($date))
+		if($this->checkWeekend($date, $weekends))
 		{
 			$ts = $this->parseDate($date);
 

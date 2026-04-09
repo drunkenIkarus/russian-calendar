@@ -379,6 +379,10 @@ if($calendar->getWeekendDates('01.01.2025', array(4,5)) != array(
 {
 	die("FAIL: Weekend date array (with weekends=[4,5]) does not match the correct value\n");
 }
+if($calendar->getWeekendDates('18.01.2025', array(0)) != array())
+{
+	die("FAIL: Weekend date array (at 18.01.2025 with weekends=[0]) does not match the correct value\n");
+}
 
 if($calendar->getWeekendDates('17.01.2025') != array())
 {
